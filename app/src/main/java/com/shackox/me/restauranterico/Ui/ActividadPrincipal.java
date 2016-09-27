@@ -67,11 +67,17 @@ public class ActividadPrincipal extends AppCompatActivity {
             case R.id.item_inicio:
                 fragmentoGenerico = new FragmentoInicio();
                 break;
-            case R.id.item_cuenta:
+            case R.id.item_parqueadero:
                 fragmentoGenerico = new FragmentoCuenta();
                 break;
-            case R.id.item_categorias:
+            case R.id.item_bahia:
                 fragmentoGenerico = new FragmentoCategorias();
+                break;
+            case R.id.item_tipo_vehiculo:
+                //fragmentoGenerico = new FragmentosTipoVehiculo();
+                break;
+            case R.id.item_tarifa:
+                //fragmentoGenerico = new FragmentoTarifa();
                 break;
             case R.id.item_configuracion:
                 startActivity(new Intent(this, ActividadConfiguracion.class));
