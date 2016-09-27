@@ -1,26 +1,93 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".Ui.ActividadPrincipal">
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_top">
+
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/inicio"
+            android:title="@string/item_inicio" />
+
+    </group>
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="@string/texto_panel_administracion">
+
+        <menu>
+
+            <group
+                android:checkableBehavior="single"
+                android:id="@+id/items_administracion">
+
+                <item
+                    android:id="@+id/item_parqueadero"
+                    android:icon="@drawable/cuenta"
+                    android:title="@string/texto_administracion_parqueadero" />
+
+                <item
+                    android:id="@+id/item_bahia"
+                    android:icon="@drawable/categorias"
+                    android:title="@string/texto_administracion_bahia" />
+
+                <item
+                    android:id="@+id/item_tipo_vehiculo"
+                    android:icon="@drawable/inicio"
+                    android:title="@string/texto_tipo_vehiculos" />
+
+                <item
+                    android:id="@+id/item_tarifa"
+                    android:icon="@drawable/busqueda"
+                    android:title="@string/texto_administracion_tarifas" />
+
+                <item
+                    android:id="@+id/item_configuracion"
+                    android:icon="@drawable/configuracion"
+                    android:title="@string/item_configuracion" />
+
+            </group>
+
+        </menu>
+
+    </item>
 
     <item
-        android:id="@+id/action_refresh"
-        android:icon="@drawable/busqueda"
-        android:orderInCategory="1"
-        android:title="@string/action_sincronizar"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/subheader"
+        android:title="@string/texto_panel_usuario">
 
-    <!-- <item
-        android:id="@+id/action_carrito"
-        android:icon="@drawable/carrito_compras"
-        android:orderInCategory="1"
-        android:title="@string/action_carrito"
-        app:showAsAction="ifRoom" /> -->
+        <menu>
+
+            <group
+                android:id="@+id/items_usuario"
+                android:checkableBehavior="single">
+
+                <item android:id="@+id/item_registro"
+                    android:icon="@drawable/busqueda"
+                    android:title="@string/texto_usuario_registrarse" />
+
+                <item android:id="@+id/item_registro_vehiculo"
+                    android:icon="@drawable/carrito_compras"
+                    android:title="@string/texto_usuario_registrar_vehiculo" />
+
+                <item android:id="@+id/item_pago"
+                    android:icon="@drawable/email"
+                    android:title="@string/texto_usuario_realizar_pago" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_bottom">
+
+        <item
+            android:id="@+id/item_informacion"
+            android:icon="@drawable/email"
+            android:title="@string/item_informacion" />
+
+    </group>
 
 </menu>
