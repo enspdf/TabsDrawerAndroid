@@ -4,6 +4,7 @@
     <string name="action_settings">Configuración</string>
     <string name="action_search">Buscar</string>
     <string name="action_carrito">Añadir al carrito</string>
+    <string name="action_sincronizar">Sincronizar</string>
 
     <string name="item_inicio">Inicio</string>
     <string name="item_cuenta">Mi Cuenta</string>
@@ -19,6 +20,30 @@
     <string name="titulo_tab_perfil">PERFIL</string>
     <string name="titulo_tab_direcciones">DIRECCIONES</string>
     <string name="titulo_tab_tarjetas">TARJETAS</string>
+    
+    <string name="titulo_tab_inicio_parqueaderos">PARQUEADEROS</string>
+    <string name="titulo_tab_crear_parqueaderos">REGISTRAR</string>
+    
+    <string name="titulo_tab_inicio_bahias">BAHIAS</string>
+    <string name="titulo_tab_crear_bahias">REGISTRAR</string>
+    
+    <string name="titulo_tab_inicio_tipos_vehiculo">TIPOS DE VEHICULO</string>
+    <string name="titulo_tab_crear_tipos_vehiculo">REGISTRAR</string>
+    
+    <string name="titulo_tab_inicio_tarifas">TARIFAS</string>
+    <string name="titulo_tab_crear_tarifas">REGISTRAR</string>
+
+    <string name="titulo_tab_inicio_usuarios">REGISTRO USUARIO</string>
+    <string name="titulo_tab_listado_usuarios">USUARIOS</string>
+
+    <string name="titulo_tab_inicio_vehiculos">REGISTRO VEHICULO</string>
+    <string name="titulo_tab_listado_vehiculos">VEHICULOS</string>
+
+    <string name="titulo_tab_inicio_pagos">REALIZAR PAGO</string>
+    <string name="titulo_tab_listado_pagos">PAGOS REALIZADOS</string>
+    
+    <string name="titulo_tab_inicio_informacion">INFORMACIÓN</string>
+    <string name="titulo_tab_acercade_informacion">ACERCA DE</string>
 
     <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
 
@@ -27,8 +52,25 @@
     <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
     <string name="etiqueta_contrasena">Contraseña</string>
     <string name="etiqueta_info_usuario">Información del usuario</string>
+    
+    <string name="texto_panel_administracion">Administración</string>
+    
+    <string name="texto_administracion_bahia">Bahias</string>
+    
+    <string name="texto_administracion_parqueadero">Parqueaderos</string>
+    
+    <string name="texto_administracion_tarifas">Tarifas</string>
+    
+    <string name="texto_tipo_vehiculos">Tipos de vehiculo</string>
+    
+    <string name="texto_panel_usuario">Usuario</string>
+    
+    <string name="texto_usuario_registrarse">Registrarse</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texto_usuario_registrar_vehiculo">Registrar vehiculo</string>
+    
+    <string name="texto_usuario_realizar_pago">Realizar pago</string>
+    
+    <string name="item_informacion">Más información</string>
 
 </resources>
